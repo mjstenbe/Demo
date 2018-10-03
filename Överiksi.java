@@ -2,7 +2,7 @@ import java.io.FileNotFoundException;
 
 public class ÷veriksi {
 	public static void main(String[] args) {
-		int[] taulu = new int[10];
+		int[] taulu = new int[15];
 
 		try {
 
@@ -10,7 +10,7 @@ public class ÷veriksi {
 				System.out.println(taulu[i]);
 
 		} catch (ArrayIndexOutOfBoundsException e) {
-			System.out.println("Nyt mentiin indeksin yli.");
+			System.out.println("Nyt mentiin indeksin yli ja lujaa.");
 
 		} catch (ArithmeticException e) {
 
@@ -20,7 +20,7 @@ public class ÷veriksi {
 			System.out.println("TUli joku muu poikkeus");
 		}
 		finally {
-			System.out.println("Lopputoimet.");
+			System.out.println("Lopputoimet tehd‰‰n t‰‰ll‰.");
 		}
 	}
 }
